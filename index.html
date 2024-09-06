@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>ARW 2024</title>
+    <link rel="icon" href="assets/Melogo.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="assets/Melogo.png" alt="logo" />
+              <span>ARW</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+
+          <li style="margin-bottom: 10px;">
+            <a href="#home" style="display: flex; align-items: center;">
+              <img src="assets/Logo/Home.png" alt="Home Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+              Home Page
+            </a>
+          </li>          
+            <li style="margin-bottom: 10px;">
+              <a href="#service" style="display: flex; align-items: center;">
+                <img src="assets/Logo/Org.png" alt="Service Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                Organizations
+              </a>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <a href="#menu" style="display: flex; align-items: center;">
+                <img src="assets/Logo/Crown.png" alt="Menu Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                Crown Quest
+              </a>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <a href="#contact" style="display: flex; align-items: center;">
+                <img src="assets/Logo/Shield.png" alt="Contact Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                Cyberclash
+              </a>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <a href="#contact" style="display: flex; align-items: center;">
+                <img src="assets/Logo/Faqs.png" alt="FAQs Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                FAQs
+              </a>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <a href="#about" style="display: flex; align-items: center;">
+                <img src="assets/Logo/About.png" alt="About Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                About
+              </a>
+            </li>
+            <li style="margin-bottom: 10px;">
+              <a href="#about" style="display: flex; align-items: center;">
+                <img src="assets/Logo/About.png" alt="About Icon" style="margin-right: 5px; width: 30px; height: 30px;">
+                About
+              </a>
+            </li>
+            
+          </ul>
+
+          
+
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/Birdy.png" alt="header" />
+        </div>
+        <div class="header__content">
+          
+          <h1>Annual Recruitment Week <span>2024</span></h1>
+          <div class="header__btns">
+
+            <button class="btn" onclick="showPopup('popup1')">What is ARW?</button>
+            <button class="btn2" onclick="showPopup('popup2')">ARW 2024</button>
+            <button class="btn3" onclick="showPopup('popup3')">Event Dates</button>
+        
+            <div id="popup1" class="popup-card">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup1')">&times;</span>
+                    <h3>What is ARW?</h3>
+                    <p>Annual Recruitment Week (ARW) is one of the most awaited annual activities in De La Salle
+                      University. Students are given the opportunity to choose among the 49 organizations under
+                      the Council of Student Organizations in pursuit of being able to meet people of similar
+                      interests and hone their skills outside of academic responsibilities.</p>
+                </div>
+            </div>
+        
+            <div id="popup2" class="popup-card">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup2')">&times;</span>
+                    <h3>ARW 2024</h3>
+                    <p>Annual Recruitment Week 2024: The Archer Calls welcomes each and every Lasallian tribute
+                      to an arena where each organization emerges as a district, showcasing their unique strengths
+                      and purpose. As the games begin, be there to witness what each organization has to offer.
+                      Join us to explore, engage, and discover how you can be part of something extraordinary. The
+                      games are on, and the choice is yours—find your path, align with your passion, and make
+                      your mark in the arena of possibilities.
+                      </p>
+                </div>
+            </div>
+        
+            <div id="popup3" class="popup-card">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closePopup('popup3')">&times;</span>
+                    <h3>Event Dates</h3>
+                    <div class="event-dates">
+                      <span class="date">October 2:</span>
+                      <span class="description">Districts United: The Parade of Champions</span>
+                      <span class="description">Opening Parade</span>
+                      <span class="date">October 6:</span>
+                      <span class="description">First Day of Sportsfest</span>
+                      <span class="date">October 9:</span>
+                      <span class="description">Second Day of Sportsfest</span>
+                      <span class="date">October 7-11:</span>
+                      <span class="description">Annual Recruitment Week 2024</span>
+                  </div>
+                </div>
+            </div>
+
+
+
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container service__container" id="service">
+      <h2 class="section__header">Council of Student Organizations</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/Org/cso.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/aso.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/aspire.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/cap13.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/engage.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/probe.png" alt="service" />
+        </div>
+
+        <div class="service__card">
+          <img src="assets/Org/special.png" alt="service" />
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="section__container menu__container" id="menu">
+      <h2 class="section__header">The 12 Districts</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d1.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 1
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d2.png" alt="menu" />
+              <div class="menu__card__details">
+
+                <a href="#">
+                  District 2
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d3.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 3
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d4.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 4
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d5.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 5
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d6.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 6
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d7.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 7
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d8.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 8
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d9.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 9
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d10.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 10
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d11.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 11
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="menu__card">
+              <img src="assets/Districts/d12.png" alt="menu" />
+              <div class="menu__card__details">
+                <a href="#">
+                  District 12
+                  <span><i class="ri-arrow-right-line"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="assets/Logo/b.png" alt="client" />
+      </div>
+      <div class="client__content">
+        <p class="section__subheader">WHAT THEY SAY</p>
+        <h2 class="section__header">What Our Customer Say About Us</h2>
+        <p class="section__description">
+          "Fudo is simply outstanding! The variety and deliciousness of their
+          meals are unparalleled, offering something for every palate. What sets
+          Fudo apart is their exceptional service. The delivery is impressively
+          fast, ensuring your food arrives hot and fresh."
+        </p>
+        <div class="client__details">
+          <img src="assets/user.jpg" alt="client" />
+          <div>
+            <h4>Theresa Jordan</h4>
+            <h5>Food Enthusiast</h5>
+          </div>
+        </div>
+        <div class="client__rating">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-line"></i></span>
+          <span>4.8</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="download__container" id="contact">
+      <div class="section__container">
+        <div class="download__image">
+          <img src="assets/download.png" alt="download" />
+        </div>
+        <div class="download__content">
+          <p class="section__subheader">DOWNLOAD APP</p>
+          <h2 class="section__header">Get Started With Fudo Today!</h2>
+          <p class="section__description">
+            Discover food wherever and whenever you want and get your food
+            delivered on time, everytime.
+          </p>
+          <div class="download__btn">
+            <button class="btn">Get The App</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo.png" alt="logo" />
+              <span>ARW 2024</span>
+            </a>
+          </div>
+          <p class="section__description">
+            Our job is to filling youe tummy with delicious food and with fast
+            and free delivery time.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>About</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">Why Fudo?</a></li>
+            <li><a href="#">Partner With Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
